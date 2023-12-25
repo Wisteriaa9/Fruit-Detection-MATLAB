@@ -63,7 +63,7 @@ kiwi_BIN=im_H_BIN.*im_S_BIN.*im_V_BIN;
 kiwi_BIN = imcrop(kiwi_BIN,[1 307 710 764]);	 
 %-------------------------------------------------
 
-im_R_mask = imcrop(im_R,[1 7 710 487]).uint8(banana_BIN); 	
+im_R_mask = imcrop(im_R,[1 7 710 487]).*uint8(banana_BIN); 	
 im_G_mask = imcrop(im_G,[1 7 710 487]).*uint8(banana_BIN);
 im_B_mask = imcrop(im_B,[1 7 710 487]).*uint8(banana_BIN);
 %concat operation to multiply all channels
