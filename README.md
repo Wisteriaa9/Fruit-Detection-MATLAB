@@ -11,7 +11,7 @@ MATLAB installed on your machine.
 1. Clone the repository to your local machine.
 
 ~~~bash
-git clone https://github.com/your-username/fruit-segmentation.git
+git clone https://github.com/Wisteriaa9/Fruit-Detection-MATLAB.git
 ~~~
 
 2. Open MATLAB and navigate to the project directory.
